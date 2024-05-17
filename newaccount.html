@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  .container {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #333;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: #c00;
+  }
+
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  fieldset legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+</style>
+<head>
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAMAURA shop</title>
+    <link rel="stylesheet" href="sstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bacasime+Antique&family=Changa&display=swap" rel="stylesheet">
+</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion à votre compte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="header">
+    <a href="#"><img src="logoo.png" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="logic.html">HOME</a></li>
+            <li><a href="product.html">SHOP</a></li>
+            <li><a href="connexion.html">Votre Espace</a></li>
+           
+            <li><a href="conttact.html">CONTACT</a></li>
+            <li><a href="cart.html"><i class="fa fa-shopping-bag" style="color: #0d0f12;"></i></a></li>
+        </ul>
+    </div>
+</section>
+  <div class="container">
+    <form action="#">
+      <h1>Inscription...</h1>
+      <fieldset>
+        <legend>Informations personnelles</legend>
+        <label for="civilite">Civilité : </label>
+        <select id="civilite" name="civilite">
+          <option value="M">M.</option>
+          <option value="Mme">Mme</option>
+        </select>
+        <label for="nomComplet">Nom complet : </label>
+        <input type="text" id="nomComplet" name="nomComplet" required>
+        <label for="email">Adresse e-mail : </label>
+        <input type="email" id="email" name="email" required>
+        <label for="username">Nom d'utilisateur : </label>
+        <input type="text" id="username" name="username" required>
+        <label for="motDePasse">Mot de passe : </label>
+        <input type="password" id="motDePasse" name="motDePasse" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Coordonnées</legend>
+        <label for="adresse">Adresse : </label>
+        <input type="text" id="adresse" name="adresse" required>
+        <label for="codePostal">Code postal : </label>
+        <input type="text" id="codePostal" name="codePostal" required>
+        <label for="telephone">Téléphone : </label>
+        <input type="tel" id="telephone" name="telephone" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Intérêts</legend>
+        <input type="text" id="Interer sport" name="Interet" required>

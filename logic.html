@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAMAURA shop</title>
+    <link rel="stylesheet" href="sstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bacasime+Antique&family=Changa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="logoo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="logic.html"  target="_blank">HOME</a></li>
+                <li><a href="product.html"  target="_blank">SHOP</a></li>
+                <li><a href="connexion.html"  target="_blank">Votre Espace</a></li>
+                <li><a href="contact.html"  target="_blank">CONTACT</a></li>
+                <li><a href="cart.html"  target="_blank"><i class="fa fa-shopping-bag" style="color: #0d0f12;"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="hero">
+        <h4>Welcome to Glamaura</h4>
+        <h2>Step into Glamaura</h2>
+        <h1>Unleash Your Inner Diva</h1>
+        <p>"Discover fashion redefined."</p>
+        <button><a href="product.html"> <h3 class="dikshop">Shop Now</h3></a></button>
+    </section>
+    
+    <section id="features" class="section-p1">
+        <div class="fe-box">
+            <img src="images/f1.png" alt="">
+            <h5>Free Shipping</h5>
+        </div>
+        <div class="fe-box">
+            <img src="images/f2.png" alt="">
+            <h5>Online Order</h5>
+        </div>
+        <div class="fe-box">
+            <img src="images/f3.png" alt="">
+            <h5>Save Money</h5>
+        </div>
+        <div class="fe-box">
+            <img src="images/f4.png" alt="">
+            <h5>Promotions</h5>
+        </div>
+        <div class="fe-box">
+            <img src="images/f5.png" alt="">
+            <h5>Good Service</h5>
+        </div>
+        <div class="fe-box">
+            <img src="images/f6.png" alt="">
+            <h5>24/7 Support</h5>
+        </div>
+    </section>
+    
+    <!-- Image Slider -->
+    <h2 class="hh">Have A Peek Of Our Outfits <br> On Some Of Our Models</h2>
+    <br>
+    <br>
+    <div class="container1">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/moddel(1).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(2).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(3).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(4).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(5).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(6).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(7).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(8).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(9).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(10).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(11).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(12).jpg"></div>
+                <div class="swiper-slide"><img src="images/moddel(13).jpg"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+<h2 class="kl">this is a ckip line <br> kolo</h2>
+
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="images/loggo-removebg-preview.png">
+        <h4>CONTACT</h4>
+        <p> <strong>Address:</strong> 652 welington toad street 32, San Fransisco</p>
+        <p> <strong>PHONE:</strong> 0684511923</p>
+        <p> <strong>Hours:</strong> 24/7</p>
+        <div class="folow">
+            <div class="icon">
+                <i class="fab fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- JavaScript -->
+    <script src="sscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
